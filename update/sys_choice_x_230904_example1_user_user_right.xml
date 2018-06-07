@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<record_update>
+    <sys_choice action="INSERT_OR_UPDATE" field="user_right" table="x_230904_example1_user" version="3">
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>user_right</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Admin</label>
+            <language>en</language>
+            <name>x_230904_example1_user</name>
+            <sequence>0</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-06 06:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>8460c1154f6213006c2eb5e18110c73b</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-06 06:55:37</sys_updated_on>
+            <value>admin</value>
+        </sys_choice>
+        <sys_choice action="INSERT_OR_UPDATE">
+            <dependent_value/>
+            <element>user_right</element>
+            <hint/>
+            <inactive>false</inactive>
+            <label>Member</label>
+            <language>en</language>
+            <name>x_230904_example1_user</name>
+            <sequence>1</sequence>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-06 06:55:37</sys_created_on>
+            <sys_domain>global</sys_domain>
+            <sys_domain_path>/</sys_domain_path>
+            <sys_id>0c60c1154f6213006c2eb5e18110c73c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-06 06:55:37</sys_updated_on>
+            <value>member</value>
+        </sys_choice>
+        <sys_choice_set action="INSERT_OR_UPDATE">
+            <element>user_right</element>
+            <name>x_230904_example1_user</name>
+            <sys_class_name>sys_choice_set</sys_class_name>
+            <sys_created_by>admin</sys_created_by>
+            <sys_created_on>2018-06-06 06:55:37</sys_created_on>
+            <sys_id>c460c1154f6213006c2eb5e18110c73c</sys_id>
+            <sys_mod_count>0</sys_mod_count>
+            <sys_name>user_right</sys_name>
+            <sys_package display_value="Example1" source="x_230904_example1">da2bfbaa4f1213006c2eb5e18110c723</sys_package>
+            <sys_policy/>
+            <sys_scope display_value="Example1">da2bfbaa4f1213006c2eb5e18110c723</sys_scope>
+            <sys_update_name>sys_choice_x_230904_example1_user_user_right</sys_update_name>
+            <sys_updated_by>admin</sys_updated_by>
+            <sys_updated_on>2018-06-06 06:55:37</sys_updated_on>
+        </sys_choice_set>
+    </sys_choice>
+</record_update>

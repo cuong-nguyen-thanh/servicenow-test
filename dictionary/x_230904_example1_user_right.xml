@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<database>
+    <element label="Right" max_length="40" name="x_230904_example1_user_right" type="collection">
+        <element label="User right id" max_length="40" name="user_right_id" type="integer"/>
+        <element display="true" label="User right text" max_length="40" name="user_right_text" type="string"/>
+    </element>
+</database>
